@@ -1,0 +1,834 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  /* overflow: hidden; */
+  font-size: 16px;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* navbar */
+
+#navbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: sticky;
+  background-color: #f4ebfd;
+  box-shadow: 0 2px 4px #542c79;
+  height: 10vh;
+  z-index: 123;
+  /* margin-bottom: 10rem; */
+}
+.logo {
+  width: 16rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.3rem 2rem;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.menu li {
+  margin: 0.7rem;
+}
+
+.menu li a {
+  color: #762da7;
+  font-size: larger;
+}
+a:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.1);
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: pointer;
+  color: #542c79;
+}
+
+/* navbar */
+
+/* herosection */
+#hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 5rem;
+  justify-content: space-between;
+  background-color: #f4ebfd;
+}
+.herodes {
+  margin: auto;
+  width: 50%;
+}
+.herodes h1 {
+  font-size: 4rem;
+}
+.herodes p {
+  font-size: larger;
+  font-family: "Roboto", sans-serif;
+  margin: 0.8rem 0;
+  color: #613dc1;
+}
+.herodes button {
+  margin-top: 1rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 0.3rem;
+  background-color: #613dc1;
+  border: 1px solid #613dc1;
+  cursor: pointer;
+  color: white;
+}
+.herodes button:last-of-type {
+  margin-left: 2rem;
+  background: #fff;
+  color: #613dc1;
+}
+.heroimg {
+  width: 50%;
+  margin: auto;
+}
+.heroimg img {
+  width: 100%;
+}
+
+/* herosection */
+.quotecol {
+  display: flex;
+  height: 20vh;
+  flex-direction: row;
+  margin: 1rem 4rem;
+}
+.quotecol h1,
+.quotecol h3 {
+  padding: 1rem;
+}
+.quotecol h1 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Jua", "Jua Placeholder", sans-serif;
+  color: #613dc1;
+}
+.quotecol h3 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Zilla Slab", "Zilla Slab Placeholder", serif;
+  color: #000000;
+}
+
+/* petcategories section  */
+#petcat {
+  padding: 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f4ebfd;
+  margin-bottom: 2rem;
+}
+.pets {
+  width: 43%;
+  padding: 0 1.6rem;
+  margin: 0.6rem;
+  object-fit: cover;
+  object-position: center;
+  background-color: #fffdfd;
+  border-radius: 1rem;
+  padding-bottom: 1.3rem;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgb(158 93 225);
+}
+.pets h2 {
+  margin-top: 1.4rem;
+  margin-bottom: 0.7rem;
+  font-size: xx-large;
+  font-weight: 900;
+  color: #613dc1;
+}
+.pets p {
+  margin-bottom: 0.5rem;
+  font-size: large;
+  font-weight: 300;
+}
+.pets img {
+  width: 100%;
+  border-radius: 0.6rem;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1.1);
+}
+/* petcategories section  */
+
+/* footer Ssection  */
+#footer {
+  margin: 3rem 2rem;
+  bottom: 0;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.footer-content h3 {
+  color: #613dc1;
+  font-size: larger;
+}
+.footer-content li a {
+  color: #1a1a1a;
+  padding: 0.3rem 0;
+}
+.socialicon {
+  text-align: center;
+}
+.socialicon i {
+  margin: 1rem 0.7rem;
+  cursor: pointer;
+  font-size: xx-large;
+}
+/* footer Ssection  */
+
+/* banner */
+.bannerbg {
+  background-color: #f4ebfd;
+}
+.banner {
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 1rem;
+}
+.banner img {
+  border-radius: 0.6rem;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgb(158 93 225);
+}
+/* banner */
+
+/* shop page */
+#shop {
+  padding: 1rem 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f4ebfd;
+  margin-bottom: 2rem;
+}
+.petshop {
+  width: 26%;
+  padding: 0 1.6rem;
+  margin: 0.6rem;
+  object-fit: cover;
+  object-position: center;
+  background-color: #fffdfd;
+  border-radius: 1rem;
+  padding-bottom: 1.3rem;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgb(158 93 225);
+}
+.petshop h2 {
+  margin-top: 1.4rem;
+  margin-bottom: 0.7rem;
+  font-size: xx-large;
+  font-weight: 900;
+  color: #613dc1;
+}
+.petshop p {
+  margin-bottom: 0.5rem;
+  font-size: large;
+  font-weight: 300;
+}
+.petshop img {
+  width: 100%;
+  border-radius: 0.6rem;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1.1);
+}
+/* shop page */
+
+/* contact page */
+#contactsec {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* object-fit: cover; */
+  /* background:url(./component/img/contact.jpg); */
+  background-color: #f4ebfd;
+  padding: 2rem 0;
+}
+.contact {
+  position: relative;
+  background-color: #fffffff8;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  border: 1px solid #762da7;
+  border-radius: 1rem;
+  padding: 3rem;
+}
+.contact .contactimg {
+  width: 50%;
+}
+.contactimg img {
+  width: 100%;
+  border-radius: 0.6rem;
+  box-shadow: 1px -1px 2px 2px #542c79;
+  background-color: #f4ebfd;
+}
+.contactdes {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.contactdes h2 {
+  color: #542c79;
+  font-size: 2rem;
+  text-align: center;
+}
+.contactdes form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+.contactdes form span {
+  margin-top: 0.9rem;
+  font-size: 1.3rem;
+  color: grey;
+}
+
+.contactdes form input {
+  padding: 0.3rem;
+  margin: 0.4rem 0;
+  width: 70%;
+  border: none;
+  background-color: transparent;
+}
+.contactdes form .iinput {
+  text-align: center;
+  width: 60%;
+  margin: 0.9rem 0.3rem;
+  border-radius: 1rem;
+  background-color: rgba(128, 128, 128, 0.325);
+  box-shadow: 0 2px 4px rgb(37, 35, 39);
+}
+.contactsubmit {
+  width: 60%;
+  border-radius: 1rem;
+  padding: 0.5em;
+  border: 1px solid #542c79;
+  background-color: #613dc1;
+  color: white;
+  margin-top: 1rem;
+  box-shadow: 0 2px 4px rgb(158 93 225);
+  cursor: pointer;
+}
+.contactsubmit i {
+  background-color: transparent !important;
+}
+.Messageinput {
+  height: 4rem;
+}
+.contacticon {
+  position: absolute;
+  right: 10rem;
+  bottom: -0.7rem;
+}
+.contacticon i {
+  font-size: 2rem;
+  padding: 0 1rem;
+  color: white;
+  cursor: pointer;
+}
+.contacticon i:first-of-type {
+  color: #5278d9;
+}
+.contacticon i:nth-of-type(2) {
+  color: #40caf6ed;
+}
+.contacticon i:last-of-type {
+  color: #0b66c2;
+}
+
+/* contact page */
+
+/* blogpage */
+.blogbanner {
+  background: url(./component/img/blogbanner.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+.blogitem {
+  display: flex;
+  padding: 0 6rem;
+  margin: 1rem 0;
+}
+.blogimg {
+  width: 50%;
+}
+.blogimg img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+.blogcontent {
+  width: 50%;
+  padding: 0 2rem;
+  margin: auto;
+}
+.blogcontent h2 {
+  padding: 1rem 0;
+}
+.blogcontent p {
+  font-weight: lighter;
+}
+.blogcontent h4 {
+  padding: 1rem 0;
+}
+/* blogpage */
+/* pethotel page */
+#pethotel{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    background-color: #f4ebfd;
+    justify-content: space-around;
+}
+.pethotelsearch{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    background-color: #f7f5f8;
+}
+.pethoteldes h1{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.pethoteldes h3{
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.pethotelsearch h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.pethotelsearch form{
+    display: flex;
+    flex-direction: column;
+}
+.pethotelsearch form input{
+    margin: .8rem 0;
+    padding: .3rem;
+    border: 1px solid gray;
+    border-radius: .2rem;
+}
+.petsearchbutton{
+    background-color: #613dc1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition:.1s ease all;
+    border-radius: .4rem;
+    padding: .3rem;
+}
+.petmap{
+    width: 90%;
+}
+.petmap iframe{
+    width: 100%;
+}
+/* pethotel page */
+
+/* login page */
+#loginsec{
+  height: 100vh;
+  position: relative;
+}
+.login{
+  width: 90%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  margin: auto ;
+  background-image: linear-gradient(to right bottom, #4621aa, #4a2698, #4b2a86, #4a2e75, #473164, #422f5c, #3d2d55, #382b4d, #30244d, #271d4c, #1b164c, #09104c);
+   height: 100vh;
+  color: white;
+  z-index: -324;
+}
+.logindes{
+  width: 67%;
+  position: relative;
+}
+.logindes h1{
+  font-size: 2.8rem;
+  font-weight:900;
+}
+.logindes h1 span{
+  font-size: 2.8rem;
+  font-weight:900;
+  color: #6dbac6;
+}
+.logindes h3{
+  font-size: 1.3rem;
+  font-weight: 200;
+  margin-top: 2rem;
+}
+.loginform{
+  width: 18rem;
+  position: absolute;
+  border: 1px solid grey;
+  border-radius: .4rem;
+  /* right: 5rem; */
+  top: 27%;
+  left: 67%;
+  padding: 3rem  2rem;
+  background-color: #f7f5f8;
+  color: #000000;
+  z-index: 23;
+}
+.loginform button{
+  width:fit-content;
+  color: white;
+  background-color: #613dc1;
+  border-radius: .2rem;
+  border: none;
+  padding: .3rem;
+  margin: .4rem 0;
+}
+.loginform h2{
+  margin-bottom: .6rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #271d4c;
+}
+.loginform input{
+  margin-top: .8rem;
+  margin-bottom: .1rem;
+}
+.loginform span{
+  margin-top: .2rem;
+  margin-bottom: .4rem;
+  /* color: black; */
+}
+.loginform form{
+  display: flex;
+  flex-direction: column;
+}
+.dot {
+  display: inline-block;
+  position: relative;
+  top: -5rem;
+  left: -7rem;
+  z-index:1;
+  height: 10rem;
+  width: 10rem;
+  background-image: linear-gradient(to right bottom, #a03dc1, #9134b4, #832ca8, #75239b, #671a8f, #5c1e8b, #522086, #482281, #3f2b81, #36327f, #30377d, #2c3c79);
+  border-radius: 50%;
+}
+/* login page */
+
+/* sign up page  */
+#signupsec{
+  position: relative;
+  height:100vh;
+  width: 100%;
+  /* background-image: linear-gradient(to right bottom, #dfbcfc, #e0c3fd, #e2cbfe, #e4d2fe, #e7d9fe, #e4dbff, #e1deff, #dfe0ff, #d5dfff, #c9deff, #dddcfb, #dddcfb); */
+  background: url(/component/img/Slide\ 16_9\ -\ 4.png);
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#signupsec img{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.signupform{
+  position: absolute;
+  width: 25rem;
+  margin-top: 6rem;
+  border: 1px solid grey;
+  border-radius: .4rem;
+  padding: 3rem  2rem;
+  background-color: rgba(255, 255, 255, .6);
+  color: #000000;
+}
+.signupform button{
+  width:fit-content;
+  color: white;
+  background-color: #613dc1;
+  border-radius: .2rem;
+  border: none;
+  padding: .3rem;
+  margin: .4rem 0;
+}
+.signupform h2{
+  margin-bottom: .6rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #271d4c;
+  text-align: center;
+}
+.signupform input{
+  margin-top: .8rem;
+  margin-bottom: .1rem;
+  border: none;
+  padding: .3rem;
+  border-radius: .3rem;
+  width: 90%;
+}
+.signupform span{
+  margin-top: .2rem;
+  margin-bottom: .4rem;
+}
+.signupform form{
+  display: flex;
+  flex-direction: column;
+  z-index: 23;
+}
+.signupform form i{
+  /* padding: .2rem; */
+  border-radius: .3rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgb(37, 35, 39);
+  margin: .3rem 0rem;
+  padding-left: 1rem!important;
+}
+.signupform form input:last-of-type{
+  width: auto;
+}
+.signupform h2 i{
+  border-radius: .3rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgb(37, 35, 39);
+  padding: .3rem;
+}
+.design2{
+  position: absolute;
+  z-index: 1;
+  width: 25rem;
+  bottom: 0;
+  right: -10rem;
+}
+/* sign up page  */
+
+/* media query for responsivenes */
+
+/* media query for laptop */
+@media (min-width:1024px){
+  *{
+    font-size: 16px;
+  }
+}
+
+
+/* media query for laptop */
+
+
+/* media query for tablet */
+@media (min-width:769px) and (max-width:1023px){
+  * {
+    font-size: 14px;
+  }
+  .petshop {
+    width: 30%;
+}
+.quotecol {
+  height: 18vh;
+}
+}
+
+
+/* media query for tablet */
+
+
+/* media query for mobile */
+@media (min-width:601px) and (max-width:768px){
+  * {
+    font-size: 11px;
+  }
+  #hero {
+    height: auto;
+}
+.quotecol {
+  height: 15vh;
+}
+.petshop {
+  width: 30%;
+}
+
+}
+
+/* media query for mobile */
+
+
+/* media query for medium mobile */
+
+@media (min-width:480px) and (max-width:600px){
+  
+  *{
+    font-size: 8.3px;
+  }
+ #hero {
+    height: auto;
+}
+.quotecol {
+  height: 11vh;
+}
+.petshop {
+  width: 45%;
+}
+.blogcontent {
+margin: 0;
+}
+.blogitem {
+  flex-direction: column;
+}
+.blogimg {
+  width: 100%;
+}
+.blogcontent{
+  width: 100%;
+}
+.contact {
+  flex-direction: column;
+}
+.contact .contactimg {
+  width: 100%;
+}
+.contactdes{
+  width: 100%;
+}
+.contacticon {
+  right: 37%;
+}
+  }  
+
+/* media query for medium mobile */
+
+
+/* media query for Low end mobile */
+@media (min-width:321px) and (max-width:479px){
+  * {
+    font-size: 6px;
+  }
+#hero {
+    height: auto;
+}
+.quotecol {
+  height: 8vh;
+}
+.petshop {
+  width: 45%;
+}
+.blogcontent {
+margin: 0;
+}
+.blogitem {
+  flex-direction: column;
+}
+.blogimg {
+  width: 100%;
+}
+.blogcontent{
+  width: 100%;
+}
+.contact {
+  flex-direction: column;
+}
+.contact .contactimg {
+  width: 100%;
+}
+.contactdes{
+  width: 100%;
+}
+.contacticon {
+  right: 37%;
+}
+.pets {
+  width: 100%;
+}
+.petshop {
+  width: 100%;
+}
+.blogbanner {
+  height: 14vh;
+}
+}
+
+/* media query for Low end mobile */
+
+/* media query for Low end mobile */
+
+@media (max-width:320px){
+  * {
+    font-size: 5px;
+  }
+  #hero {
+    height: auto;
+}
+.quotecol {
+  height: 8vh;
+}
+.petshop {
+  width: 45%;
+}
+.blogcontent {
+margin: 0;
+}
+.blogitem {
+  flex-direction: column;
+}
+.blogimg {
+  width: 100%;
+}
+.blogcontent{
+  width: 100%;
+}
+.contact {
+  flex-direction: column;
+}
+.contact .contactimg {
+  width: 100%;
+}
+.contactdes{
+  width: 100%;
+}
+.contacticon {
+  right: 37%;
+} 
+.pets {
+  width: 100%;
+}
+.petshop {
+  width: 100%;
+}
+.blogbanner {
+  height: 14vh;
+}
+}
+/* media query for Low end mobile */
+
+
