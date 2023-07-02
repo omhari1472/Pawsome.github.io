@@ -170,7 +170,7 @@ a:hover {
 }
 /* petcategories section  */
 
-/* footer Ssection  */
+/* / Ssection  */
 #footer {
   margin: 3rem 2rem;
   bottom: 0;
@@ -368,7 +368,7 @@ a:hover {
 
 /* blogpage */
 .blogbanner {
-  background: url(./component/img/blogbanner.jpg);
+  background: url(component/img/blogbanner.jpg);
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -552,7 +552,7 @@ a:hover {
   height:100vh;
   width: 100%;
   /* background-image: linear-gradient(to right bottom, #dfbcfc, #e0c3fd, #e2cbfe, #e4d2fe, #e7d9fe, #e4dbff, #e1deff, #dfe0ff, #d5dfff, #c9deff, #dddcfb, #dddcfb); */
-  background: url(/component/img/Slide\ 16_9\ -\ 4.png);
+  background: url(component/img/Slide\ 16_9\ -\ 4.png);
   object-fit: cover;
   display: flex;
   justify-content: center;
